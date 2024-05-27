@@ -12,9 +12,10 @@ function InputBox({ //this all are methods going to be used
     className = "",
 }) {
    // note :- do not use useId for generating keys in a list keys should be generated from data 
-    const amountInputId = useId() // gives you the unique value in amount 
+    const amountInputId = useId() // gives you the unique value in amount
+    //user can inject there own css here by using this syntax of jsx
     return (
-        <div className={`bg-white p-3 rounded-lg text-sm flex `}>//user can inject there own css here by using this syntax of jsx
+        <div className={`bg-white p-3 rounded-lg text-sm flex `}>
             <div className="w-1/2">
                 <label  className="text-black/40 mb-2 inline-block" htmlFor={amountInputId}>
                    { label}

@@ -1,5 +1,4 @@
-let url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`
-
+let url = `https://open.er-api.com/v6/latest/${currency}`
 function InputBox({
     label,
     
