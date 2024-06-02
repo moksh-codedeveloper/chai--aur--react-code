@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import UserContext from "./UserContext"
 
 const UserContextProvider = ({children}) => {
-    const [user, setUser] = React.useState([]);
+    const [user, setUser] = React.useState(null);
     //u are using basically in context provider as your name value
     return(
         <>
