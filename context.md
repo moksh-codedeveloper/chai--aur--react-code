@@ -104,3 +104,21 @@ App UI
                 </div>
             </div>
 </div>
+
+## remember to change the configuration 
+
+"" javascripts 
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+""
