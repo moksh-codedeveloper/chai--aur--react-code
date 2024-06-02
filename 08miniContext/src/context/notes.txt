@@ -1,0 +1,20 @@
+UserContext
+
+it will become the provider 
+    which means every component globally be accessible to this context 
+    <UserContext>
+        <Login />
+        <Card>
+            <Data/>
+        </Card>
+    </UserContext>
+like this 
+
+
+for children 
+
+children is just like an outlet 
+keep footer and header as it is 
+like that the props you are getting use them as it is 
+children is just generic name pass out as it is as coming to you 
+
